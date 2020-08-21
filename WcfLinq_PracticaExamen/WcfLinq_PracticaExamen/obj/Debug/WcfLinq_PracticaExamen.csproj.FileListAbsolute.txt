@@ -1,0 +1,7 @@
+C:\Users\Fabio Córdoba\source\repos 2017\WcfLinq_PracticaExamen\WcfLinq_PracticaExamen\bin\WcfLinq_PracticaExamen.dll.config
+C:\Users\Fabio Córdoba\source\repos 2017\WcfLinq_PracticaExamen\WcfLinq_PracticaExamen\bin\WcfLinq_PracticaExamen.dll
+C:\Users\Fabio Córdoba\source\repos 2017\WcfLinq_PracticaExamen\WcfLinq_PracticaExamen\bin\WcfLinq_PracticaExamen.pdb
+C:\Users\Fabio Córdoba\source\repos 2017\WcfLinq_PracticaExamen\WcfLinq_PracticaExamen\obj\Debug\WcfLinq_PracticaExamen.csproj.CoreCompileInputs.cache
+C:\Users\Fabio Córdoba\source\repos 2017\WcfLinq_PracticaExamen\WcfLinq_PracticaExamen\obj\Debug\WcfLinq_PracticaExamen.dll
+C:\Users\Fabio Córdoba\source\repos 2017\WcfLinq_PracticaExamen\WcfLinq_PracticaExamen\obj\Debug\WcfLinq_PracticaExamen.pdb
+C:\Users\Fabio Córdoba\source\repos 2017\WcfLinq_PracticaExamen\WcfLinq_PracticaExamen\obj\Debug\WcfLinq_PracticaExamen.csprojAssemblyReference.cache

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:50394/Service1.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/WcfLinq_PracticaExamen" />
+  <xs:element name="ObtenerVentasPorIdentificacion">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="cedula" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerVentasPorIdentificacionResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/WcfLinq_PracticaExamen" minOccurs="0" name="ObtenerVentasPorIdentificacionResult" nillable="true" type="q1:ArrayOfVenta" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CalcularDiferenciaAnual">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="anioAnterior" type="xs:double" />
+        <xs:element minOccurs="0" name="anioActual" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CalcularDiferenciaAnualResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CalcularDiferenciaAnualResult" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CalcularComision">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ventasAnuales" type="xs:double" />
+        <xs:element minOccurs="0" name="cuotaAnual" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CalcularComisionResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CalcularComisionResult" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

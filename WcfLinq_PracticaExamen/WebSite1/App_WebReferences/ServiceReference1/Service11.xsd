@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/WcfLinq_PracticaExamen" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/WcfLinq_PracticaExamen" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfVenta">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Venta" nillable="true" type="tns:Venta" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfVenta" nillable="true" type="tns:ArrayOfVenta" />
+  <xs:complexType name="Venta">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Bonificacion" type="xs:unsignedLong" />
+      <xs:element minOccurs="0" name="Cedula" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CuotaAnual" type="xs:unsignedLong" />
+      <xs:element minOccurs="0" name="Jefe" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nombre" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PorcComision" type="xs:unsignedLong" />
+      <xs:element minOccurs="0" name="PromedioMensual" type="xs:unsignedLong" />
+      <xs:element minOccurs="0" name="Provincia" type="xs:int" />
+      <xs:element minOccurs="0" name="VentasAnioAnt" type="xs:unsignedLong" />
+      <xs:element minOccurs="0" name="VentasAnuales" type="xs:unsignedLong" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Venta" nillable="true" type="tns:Venta" />
+</xs:schema>
